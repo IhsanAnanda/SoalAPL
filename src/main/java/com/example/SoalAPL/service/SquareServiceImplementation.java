@@ -11,7 +11,7 @@ public class SquareServiceImplementation implements SquareService{
             return new SquareResDto("Nilai terlalu kecil");
         }
         else if(num > 9){
-            return new SquareResDto("Nilai telalu besar");
+            return new SquareResDto("Nilai terlalu besar");
         }
         StringBuilder top = new StringBuilder();
         StringBuilder mid = new StringBuilder();
