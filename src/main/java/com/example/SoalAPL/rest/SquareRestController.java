@@ -1,6 +1,5 @@
 package com.example.SoalAPL.rest;
 
-import com.example.SoalAPL.dto.ResponseDto;
 import com.example.SoalAPL.dto.SquareReqDto;
 import com.example.SoalAPL.service.SquareService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +17,6 @@ public class SquareRestController {
         try{
             var res = squareService.getResult(req.getN());
             return ResponseEntity.status(HttpStatus.OK).body(res);
-//            String successMessage = "Request processed successfully.";
-//            ResponseDto response = new ResponseDto(HttpStatus.OK.value(), successMessage, res);
-//            return ResponseEntity.ok(response);
         }catch (Exception ex){
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Runtime error on the server");
         }
