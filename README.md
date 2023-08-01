@@ -28,7 +28,7 @@ Jawaban dari soal APL BNI untuk Java Developer.
             Tambahkan "=" ke 'atas'
         Perulangan dari i = 0 hingga n-3:
             Tambahkan "| |" ke 'tengah'
-        Kembalikan hasil penggabungan 'atas', 'tengah', dan 'atas' untuk membentuk kotak
+        Kembalikan hasil penggabungan dari 'atas', 'tengah', dan 'atas'
 
 ## TestCase
 
