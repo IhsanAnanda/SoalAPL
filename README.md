@@ -10,7 +10,7 @@ Jawaban dari soal APL BNI untuk Java Developer.
 - Melakukan pengecekan jika nilai n < 3 maka akan langsung memberikan hasil "Nilai terlalu kecil" atau jika n > 9 maka akan memberikan hasil "Nilai terlalu besar". Jika nilai n diantara 3-9 maka akan lanjut ke langkah berikutnya.
 - Membuat 2 variabel untuk membentuk hasil akhir. Variabel tersebut adalah top dan mid.
 - Menambahkan simbol "=" sebanyak n kali dengan cara melakukan perulangan dan menyimpannya ke variabel top.
-- Menambahkan simbol "| |" sebanyak n kali dengan cara melakukan perulangan dan menyimpannya ke variabel mid.
+- Menambahkan simbol "| |" sebanyak n-2 kali dengan cara melakukan perulangan dan menyimpannya ke variabel mid.
 - Membentuk hasil akhir dengan menggabungkan top + mid + top,
 - Mengembalikan hasil akhir.
 
