@@ -38,7 +38,7 @@ class SoalAplApplicationTests {
 		).andDo(result -> {
 			SquareResDto response = objectMapper.readValue(result.getResponse().getContentAsString(), new TypeReference<>() {
 			});
-			assertEquals("=====| || || |=====", response.getSquare());
+			assertEquals("=====|   ||   ||   |=====", response.getSquare());
 		});
 	}
 

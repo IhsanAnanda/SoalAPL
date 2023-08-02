@@ -15,11 +15,19 @@ public class SquareServiceImplementation implements SquareService{
         }
         StringBuilder top = new StringBuilder();
         StringBuilder mid = new StringBuilder();
+        StringBuilder temp = new StringBuilder();
         for(int i = 0; i < num; i++) {
             top.append("=");
         }
+        for(int i = 0; i < num; i++){
+            if(i == 0 || i == num-1){
+                temp.append("|");
+            }else{
+                temp.append(" ");
+            }
+        }
         for(int i = 0; i < num-2; i++){
-            mid.append("| |");
+            mid.append(temp);
         }
         return new SquareResDto(top.toString() + mid.toString() + top.toString());
     }
